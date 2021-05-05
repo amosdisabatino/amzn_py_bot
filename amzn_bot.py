@@ -43,4 +43,4 @@ while s== "Non disponibile.":
 print('++++PS5 DISPONIBILE!!!!++++')
 button2 = driver.find_element_by_id('buy-now-button')
 driver.implicitly_wait(10)
-ActionChains(driver).move_to_element(button2).click(button2).perform()
+ActionChains(driver).move_to_element(button2).click(button2).perform() 
