@@ -8,8 +8,6 @@ import random
 import winsound
 
 AMAZON_URL = 'https://www.amazon.it/Playstation-Sony-PlayStation-5/dp/B08KKJ37F7'
-WAIT_TIME = 5
-PRICE_LIMIT = 700.00
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver=webdriver.Chrome(PATH)
 driver.get(AMAZON_URL)
