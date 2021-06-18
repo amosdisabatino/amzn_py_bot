@@ -31,6 +31,7 @@ driver.implicitly_wait(10)
 conto = 0
 while s== "Non disponibile.":
     driver.implicitly_wait(10)
+    time.sleep(60)
     driver.refresh()
     conto+=1
     print(conto)
